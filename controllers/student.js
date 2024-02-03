@@ -20,10 +20,10 @@ var unirest = require('unirest')
 var Razorpay = require('razorpay')
 var qs = require('querystring')
 
-var instance = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET,
-})
+// var instance = new Razorpay({
+//   key_id: process.env.RAZORPAY_KEY_ID,
+//   key_secret: process.env.RAZORPAY_KEY_SECRET,
+// })
 
 const paypal = require('paypal-rest-sdk')
 
